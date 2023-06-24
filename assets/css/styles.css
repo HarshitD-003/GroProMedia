@@ -211,6 +211,7 @@ body {
 .border-first-button {
   height: max-content;
   width: max-content;
+  margin-left:20% ;
 }
 
 .border-first-button a {
@@ -1034,6 +1035,7 @@ Banner Style
   color: #fa65b1;
   margin-bottom: 15px;
   text-transform: uppercase;
+  margin-left: 45px;
 }
 
 .main-banner .left-content h2 {
@@ -1048,10 +1050,11 @@ Banner Style
 .main-banner .left-content p {
   margin-bottom: 30px;
   margin-right: 45px;
+  margin-left: 45px;
 }
 
 .main-banner .right-image {
-  text-align: right;
+  text-align: center;
   position: relative;
   z-index: 20;
 }
@@ -2487,4 +2490,9 @@ a {
 .loaded #dataset-3 {
   -webkit-animation-delay: 0s;
           animation-delay: 0s;
+}
+
+.vid{
+  height: 80%;
+  width: 80%;
 }
