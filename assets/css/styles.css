@@ -1451,6 +1451,7 @@ Services Style
   background-color: #fff;
   border-radius: 15px;
   padding: 80px 120px 50px 120px;
+  margin-bottom: 8%;
 }
 
 .services ul.nacc li {
@@ -2227,15 +2228,15 @@ responsive
 
 
 .count-container {
-  background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 77, 216) 24.4%, rgb(77, 24, 69) 24.5%, rgb(35, 19, 37) 66%);
-  color: #fff;
   font-family: "Roboto Mono", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 25vh;
   overflow: hidden;
   margin: 0;
+  width: 100%;
+  margin-top: 100px;
 }
 
 .counter-container {
@@ -2243,17 +2244,17 @@ responsive
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  margin: 30px 50px;
-  
+  padding-left:3% ;  
+  padding-right: 3%;
 }
 
 .counter {
-  font-size: 60px;
+  font-size: 200%;
   margin-top: 10px;
 }
 
 .col-counter {
-  width: 20%;
+  width: 15%;
 }
 
 @media (max-width: 580px) {
@@ -2377,7 +2378,6 @@ a {
   position: relative;
   width: 560px;
   height: 260px;
-  margin: 3em auto;
   background-image: repeating-radial-gradient(center center, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 2px, transparent 2px, transparent 100%);
   background-size: 29px 29px;
   background-position: -11px 11px;
@@ -2495,4 +2495,9 @@ a {
 .vid{
   height: 80%;
   width: 80%;
+}
+
+.counter-plus{
+  margin-top:4%;
+  margin-left: 3.25%;
 }
