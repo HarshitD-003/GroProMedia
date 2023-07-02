@@ -1,38 +1,3 @@
-/*
-
-TemplateMo 568 DigiMedia
-
-https://templatemo.com/tm-568-digimedia
-
-*/
-
-/* ---------------------------------------------
-Table of contents
-------------------------------------------------
-01. font & reset css
-02. reset
-03. global styles
-04. header
-05. banner
-06. features
-07. testimonials
-08. contact
-09. footer
-10. preloader
-11. search
-12. portfolio
-
---------------------------------------------- */
-/* 
----------------------------------------------
-font & reset css
---------------------------------------------- 
-*/
-/* 
----------------------------------------------
-reset
---------------------------------------------- 
-*/
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
 s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
@@ -231,7 +196,57 @@ body {
   color: #fff !important;
 }
 
+.border-first-button2 {
+  height: 80%;
+  width: 80%;
+  margin-left:30% ;
+}
 
+.border-first-button2 a {
+  display: inline-block !important;
+  padding: 2% 4% !important;
+  color: #fa65b1 !important;
+  border: 1px solid #fa65b1 !important;
+  border-radius: 23px;
+  font-weight: 500 !important;
+  letter-spacing: 0.3px !important;
+  transition: all .5s;
+  font-size: x-large;
+}
+
+.border-first-button2 a:hover {
+  background-color: #fa65b1;
+  color: #fff !important;
+}
+
+.read-more-button{
+  display: inline-block !important;
+  padding: 2% 4% !important;
+  color: #fa65b1 !important;
+  border: 1px solid #fa65b1 !important;
+  border-radius: 23px;
+  font-weight: 500 !important;
+  letter-spacing: 0.3px !important;
+  transition: all .5s;
+  font-size: x-large;
+}
+
+.read-more-button:hover {
+  background-color: #fa65b1;
+  color: #fff !important;
+}
+
+.read-more-button a {
+  display: inline-block !important;
+  padding: 2% 4% !important;
+  color: #fa65b1 !important;
+  border: 1px solid #fa65b1 !important;
+  border-radius: 23px;
+  font-weight: 500 !important;
+  letter-spacing: 0.3px !important;
+  transition: all .5s;
+  font-size: x-large;
+}
 /* 
 ---------------------------------------------
 intro
@@ -1638,6 +1653,8 @@ Portfolio
   border-radius: 25px;
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
   margin: 15px;
+  position: relative;
+  background-color: rgb(244, 217, 6);
 }
 
 .portfolio-item .thumb {
@@ -1751,6 +1768,9 @@ Blog
 .blog-post {
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
   border-radius: 25px;
+  position: sticky;
+top: 0;
+z-index: 1;
 }
 
 .blog-post .thumb img {
@@ -1827,6 +1847,8 @@ Blog
   display: inline-block;
   float: left;
   margin-right: 30px;
+  height: 40%;
+  width: 40%;
 }
 
 .post-item .thumb img {
@@ -1834,7 +1856,7 @@ Blog
   display: inline-block;
 }
 
-.post-item .right-content {
+.post-item  {
   padding-top: 20px;
 }
 
@@ -1859,8 +1881,7 @@ Blog
   font-size: 20px;
   font-weight: 700;
   color: #2a2a2a;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  
   line-height: 30px;
 }
 
@@ -2525,3 +2546,14 @@ a {
   font-size: 600%;
 }
 
+.popup {
+  display: none;
+  position: sticky;
+  padding: 10px;
+  width: 200%;
+  height: 580px;
+  background: #FFF;
+  border: 3px solid #F04A49;
+  z-index: 20;
+  margin-top: -90%;
+}
