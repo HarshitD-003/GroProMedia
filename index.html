@@ -43,11 +43,12 @@
 
 
   <!-- ***** Header Area Start ***** -->
-  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
-    <div class="container">
+  <div  id="navbar">
+  <header class="header-area" id="navbarx">
+    <div class="container" >
       <div class="row">
         <div class="col-12">
-          <nav class="main-nav">
+          <nav class="main-nav" >
             <!-- ***** Logo Start ***** -->
             <a href="index.html" class="logo">
               <img src="assets/images/gg-removebg-preview.png" alt="">
@@ -72,7 +73,7 @@
     </div>
   </header>
   <!-- ***** Header Area End ***** -->
-
+  </div>
   <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
               <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
                 <video src="assets/videos/DFT 1_C.mp4" muted autoplay loop playsinline class="vid"></video> 
@@ -185,35 +186,31 @@
         <div class="item-s"
             style="background-image: url(assets/images/OurServices/OurServices/Content\ Management\ \(Small\).png);">
             <div class="content">
-                <div class="name">LUNDEV</div>
-                <div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat
-                    tieu</div>
+                <div class="name">CONTENT MANAGEMENT</div>
+                <div class="des">WE OVERSEE YOUR SOCIAL MEDIA CONTENT DISTRIBUTION, WITH OPTIMAL CAPTIONS AND ENGAGEMENT COMPONENTS THAT AMPLIFY YOUR VISIBILITY AND ENGAGEMENT.</div>
                 <button>See more</button>
             </div>
         </div>
         <div class="item-s" style="background-image: url(assets/images/OurServices/OurServices/Ideation.png);">
             <div class="content">
-                <div class="name">LUNDEV</div>
-                <div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat
-                    tieu</div>
+                <div class="name">IDEATION AND CONSULTING</div>
+                <div class="des">WE OVERSEE YOUR SOCIAL MEDIA CONTENT DISTRIBUTION, WITH OPTIMAL CAPTIONS AND ENGAGEMENT COMPONENTS THAT AMPLIFY YOUR VISIBILITY AND ENGAGEMENT.</div>
                 <button>See more</button>
             </div>
         </div>
         <div class="item-s"
             style="background-image: url(assets/images/OurServices/OurServices/Influencer\ Marketing.png);">
             <div class="content">
-                <div class="name">LUNDEV</div>
-                <div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat
-                    tieu</div>
+                <div class="name">INFLUENCER MARKETING</div>
+                <div class="des">WE OVERSEE YOUR SOCIAL MEDIA CONTENT DISTRIBUTION, WITH OPTIMAL CAPTIONS AND ENGAGEMENT COMPONENTS THAT AMPLIFY YOUR VISIBILITY AND ENGAGEMENT.</div>
                 <button>See more</button>
             </div>
         </div>
         <div class="item-s"
             style="background-image: url(assets/images/OurServices/OurServices/Video\ Ediitng.png);">
             <div class="content">
-                <div class="name">LUNDEV</div>
-                <div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat
-                    tieu</div>
+                <div class="name">STUNNING VISUALS</div>
+                <div class="des">WE OVERSEE YOUR SOCIAL MEDIA CONTENT DISTRIBUTION, WITH OPTIMAL CAPTIONS AND ENGAGEMENT COMPONENTS THAT AMPLIFY YOUR VISIBILITY AND ENGAGEMENT.</div>
                 <button>See more</button>
             </div>
         </div>
@@ -419,8 +416,7 @@
                   <img src="assets/images/Photos/Shade_edited_by_Ksenia_Belova-5-removebg-preview.png" alt="">
                 </div>
                 <div class="down-content">
-                  <h4>Website Builder</h4>
-                  <span>Marketing</span>
+                  <h4>Shade Zahrai</h4>
                 </div>
               </div>
 
@@ -467,8 +463,8 @@
             <div class="line-dec"></div>
           </div>
         </div>
-        <div class="col-lg-6 show-up wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-          <div class="blog-post xpr">
+        <div class="col-lg-6 show-up wow fadeInUp xpr" data-wow-duration="1s" data-wow-delay="0.3s">
+          <div class="blog-post">
             <div class="thumb">
               <a href="#"><img src="assets/images/Blog/sssniperwolf.jpg" alt=""></a>
             </div>
@@ -713,6 +709,17 @@
   <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
   <script src="assets/js/slider.js"></script>
   <script src="assets/js/vid-button.js"></script>
-
+  <script>
+    window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    
+    document.getElementById("navbarx").style.background = "#ffffff";
+  } else {
+   
+    document.getElementById("navbarx").style.background = "none";
+  }
+}
+  </script>
 </body>
 </html>
