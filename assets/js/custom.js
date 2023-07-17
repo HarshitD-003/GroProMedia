@@ -28,10 +28,10 @@
               items:5
           },
           992:{
-              items:3
+              items:2
           },
           760:{
-            items:2
+            items:1
         }
       }
   });
