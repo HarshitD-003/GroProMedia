@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-bebas-neue: "Bebas Neue";
+  --font-merriweather-sans: "Merriweather Sans";
+
+  /* font sizes */
+  --font-size-31xl: 50px;
+  --font-size-11xl: 30px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+
+  /* border radiuses */
+  --br-xl: 20px;
+}
